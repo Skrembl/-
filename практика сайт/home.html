@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TechMaster</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="home.html" class="logo">TechMaster</a>
+                <ul>
+                    <li>
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                    <li>
+                        <a href="#">Блог</a>
+                    </li>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <div class="dropdown">
+                        <a href="#" class="dropbtn" onclick="myFunction()">Обучающий контент
+                            <img src="./img/menu-li.svg" alt="menu">
+                        </a>
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="#">Видеокурсы</a>
+                            <hr>
+                            <a href="#">Материалы к уроку</a>
+                        </div>
+                    </div>
+                    <li class="li-search">
+                        <a href="#">
+                            <img src="./img/search.svg" alt="search">
+                        </a>
+                    </li>
+                    <div class="button-login">
+                        <a href="#" type="button">Вход</a>
+                    </div>
+                    <div class="button-signup">
+                        <a href="#" type="button">Регистрация</a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main-block__text">
+                <h1>Добро пожаловать в TechMaster</h1>
+                <p>Развивай свои навыки программирования, робототехники и других IT-направлений с лучшими преподавателями. Видео-курсы, советы и полезные материалы для <br> школьников и студентов. <br> Твой путь в IT начинается здесь!</p>
+                <button class="main-button">
+                    <a href="#" type="button">Выбрать курс</a>
+                </button>
+                <button class="main-button__next">
+                    <a href="#" type="button">Посмотреть материалы</a>
+                </button>
+                <button class="main-button__last">
+                    <a href="#" type="button">Начать изучение сейчас
+                        <img src="./img/icon-arrow-right.svg" alt="arrow">
+                    </a>
+                </button>
+            </div>
+
+            <div class="mouse-parallax">
+                <!-- <img src="./img/main-img.jpg" alt="#"> -->
+                <div class="mouse-parallax-bg"></div>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <section class="popular-courses">
+        <div class="container">
+            <h1>Популярные курсы</h1>
+            <div class="cards">
+                <div class="card">
+                    <img src="./img/wf-img.jpg" alt="wf" class="wf-img">
+                    <div class="container-mini">
+                        <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block-last"></div>
+                    <button>
+                        <a href="#">Подробнее
+                            <img src="./img/icon-arrow-right_white.svg" alt="#">
+                        </a>
+                    </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/wf-img.jpg" alt="wf" class="wf-img img-center">
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block-last"></div>
+                    <button>
+                        <a href="#">Подробнее
+                            <img src="./img/icon-arrow-right_white.svg" alt="#">
+                        </a>
+                    </button>
+                </div>
+                <div class="card">
+                    <img src="./img/wf-img.jpg" alt="wf" class="wf-img">
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block-last"></div>
+                    <button>
+                        <a href="#">Подробнее
+                            <img src="./img/icon-arrow-right_white.svg" alt="#">
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="div-btn">
+                <button class="cards-btn">
+                    <a href="#">Все курсы
+                        <img src="./img/icon-arrow-right.svg" alt="#">
+                    </a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="footer-footer">
+                <div>
+                    <a href="home.html" class="footer-logo">TechMaster</a>
+                    <p>TechMaster @ 2024. All rights reserved.</p>
+                </div>
+                <div class="block-links">
+                    <div class="block-links__one">
+                        <h6>Информация</h6>
+                        <a href="#">О нас</a>
+                        <a href="#">Проекты</a>
+                        <a href="#">О курсах</a>
+                    </div>
+                    <div class="block-links__two">
+                        <a href="contacts.html">Контакты</a>
+                        <a href="#">Отзывы</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="block-links__three">
+                        <h6>Аккаунт</h6>
+                        <a href="#">Войти</a>
+                        <a href="#">Регистрация</a>
+                        <a href="#">Обратная связь</a>
+                    </div>
+                </div>
+                <div class="footer-form">
+                    <input type="email" placeholder="techmaster@gmail.com" class="email" id="emailInput">
+                    <button type="button" onclick="subscribe()" class="input__btn">Подписаться</button>
+                </div>
+            </div>
+            <div class="messangers">
+                <a href="https://github.com/Skrembl" target="_blank" class="footer-img__one">
+                    <img src="./img/github.svg" alt="github">
+                </a>
+                <a href="https://t.me/sml_111000111" target="_blank" class="footer-img__two">
+                    <img src="./img/telegram.svg" alt="telegram">
+                </a>
+                <a href="https://wa.me/89264029308" target="_blank" class="footer-img__three">
+                    <img src="./img/whatsapp.svg" alt="whatsapp">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
